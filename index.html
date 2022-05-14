@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Encode-Decode</title>
+</head>
+<body>
+    <header>
+        <h1>Code-Decode</h1>
+        <p>Codifique e decodifique textos/Base64 de forma simples e rápida ⚡.</p>
+    </header>
+    <main class="container">
+        <section id="input-section">
+            <label for="encode-area"></label>
+            <textarea name="encode-area" id="encode-area" cols="30" rows="10"></textarea>
+            <button onclick="convertText('encode-area')">Encode</button>
+        </section>
+        <section id="output-section" class="container">
+            <label for="decode-area"></label>
+            <textarea name="decode-area" id="decode-area" cols="30" rows="10"></textarea>
+            <button onclick="convertText('decode-area')">Decode</button>
+        </section>
+    </main>
+    <footer>
+        <p> Make with 💜 to thazsobral </p>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+    <script src="assets/scripts/copy-text.js"></script>
+</body>
+</html>

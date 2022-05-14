@@ -1,3 +1,3 @@
-# encode-decode-utf-16
+# encode-decode-base-64
 
-Page to encode and decode texts in utf-16.
+Page to encode and decode texts in base 64.
